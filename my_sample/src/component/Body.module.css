@@ -1,0 +1,21 @@
+@import '../color.css';
+
+.container {
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0.5rem 0;
+  padding: 0 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-color: var(--base-bg-color);
+  border-radius: 5px;
+}

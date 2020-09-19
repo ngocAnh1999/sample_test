@@ -1,0 +1,22 @@
+@import '../../color.css';
+
+.li_todo {
+  margin: 1rem;
+}
+.action {
+  color: var(--primary-contrastText);
+  margin-right: 0.5rem;
+  padding: 4px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 0.5rem;
+}
+
+.delete {
+  border: 1px solid var(--secondary-dark);
+  background-color: var(--secondary-dark);
+}
+
+.edit {
+  background-color: var(--primary-dark);
+}
